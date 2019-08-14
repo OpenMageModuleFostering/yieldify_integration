@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>Yieldify_Integration</name>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <stability>stable</stability>
     <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
     <channel>community</channel>
@@ -41,11 +41,13 @@ If you&#x2019;re new to Yieldify, you&#x2019;ll need to get in touch with us usi
 Existing customers&#xD;
 If you already have an account with us and need help with getting started via Magento, please contact your Account Manager&#xD;
 Learn more at yieldify.com</description>
-    <notes>- Initial release that allows simple Integration with Yieldify into Magento using only a unique Yieldify ID.</notes>
-    <authors><author><name>Yieldify</name><user>Yieldify</user><email>magento@yieldify.com</email></author></authors>
-    <date>2016-03-02</date>
-    <time>17:41:24</time>
-    <contents><target name="magecommunity"><dir name="Yieldify"><dir name="Integration"><dir name="Helper"><file name="Data.php" hash="c9fe5ab4ebd5a64f848f926ec3b55e74"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="YieldifyuuidController.php" hash="b7a9cadfdd463ac8c2bd2dc022866735"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="7626b6772262e64b9839f2c83f47af85"/><file name="config.xml" hash="2d95f0b261c399307c8bf5dedfae94fc"/></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="yieldifyuuid.xml" hash="d9692c9afaea94f7669606b87778a9c8"/></dir><dir name="template"><dir name="yieldify_integration"><file name="backend.phtml" hash="6272fb0a177feec3c726ffaaa018e483"/></dir></dir></dir></dir></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="yieldify_integration.xml" hash="cae7e1f3cb4ddeb928ee1c91dd6de877"/></dir><dir name="template"><dir name="yieldify_integration"><file name="frontend.phtml" hash="36263d9c745999bf38b9a5f31f971df9"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Yieldify_Integration.xml" hash="6fa40cdb40349504d56529a5d4595b28"/></dir></target></contents>
+    <notes>- Improvements to the extension&#x2019;s admin page UI&#xD;
+- Improved validation of your Yieldify ID&#xD;
+- You can now clear your Yieldify ID (removes the integration)</notes>
+    <authors><author><name>Yieldify</name><user>Yieldify</user><email>integrations@yieldify.com</email></author></authors>
+    <date>2016-04-04</date>
+    <time>16:27:16</time>
+    <contents><target name="magecommunity"><dir name="Yieldify"><dir name="Integration"><dir name="Helper"><file name="Data.php" hash="5752b9a90e2b9ae95e4cf7ae23745cfd"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="YieldifyuuidController.php" hash="bf5d3d5e87c9cc6df4153351a3007494"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="7626b6772262e64b9839f2c83f47af85"/><file name="config.xml" hash="66e4b44b1158b8b3ea2c6bb36949b0a4"/></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="yieldifyuuid.xml" hash="d9692c9afaea94f7669606b87778a9c8"/></dir><dir name="template"><dir name="yieldify_integration"><file name="backend.phtml" hash="46c8a19512260e1c092099762c38ad9f"/></dir></dir></dir></dir></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="yieldify_integration.xml" hash="cae7e1f3cb4ddeb928ee1c91dd6de877"/></dir><dir name="template"><dir name="yieldify_integration"><file name="frontend.phtml" hash="cebcafe256cdd5914fd39202a34f6e4f"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Yieldify_Integration.xml" hash="6fa40cdb40349504d56529a5d4595b28"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.3.0</min><max>5.6.99</max></php></required></dependencies>
 </package>

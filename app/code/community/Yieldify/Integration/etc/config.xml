@@ -3,7 +3,7 @@
 	<!-- Basic module configuration -->
 	<modules>
 		<Yieldify_Integration>
-			<version>1.0.0</version>
+			<version>1.1.0</version>
 		</Yieldify_Integration>
 	</modules>
 	<!-- Add layout file to the frontend -->
