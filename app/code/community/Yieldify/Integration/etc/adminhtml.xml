@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<config>
+	<menu>
+		<yieldifytab translate="title" module="default_helper">
+			<title>Yieldify</title>
+			<sort_order>85</sort_order>
+			<children>
+				<index translate="title" module="default_helper">
+					<title>Set Yieldify ID</title>
+					<sort_order>1</sort_order>
+					<action>adminhtml/yieldifyuuid/index</action>
+				</index>
+			</children>
+		</yieldifytab>
+	</menu>
+	<acl>
+		<resources>
+			<admin>
+				<children>
+					<yieldifytab translate="title" module="default_helper">
+						<title>Yieldify</title>
+						<sort_order>85</sort_order>
+						<children>
+							<index translate="title" module="default_helper">
+								<title>Set Yieldify ID</title>
+								<sort_order>1</sort_order>
+							</index>
+						</children>
+					</yieldifytab>
+				</children>
+			</admin>
+		</resources>
+	</acl>
+</config>

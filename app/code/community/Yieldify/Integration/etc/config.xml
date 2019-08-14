@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<config>
+	<!-- Basic module configuration -->
+	<modules>
+		<Yieldify_Integration>
+			<version>1.0.0</version>
+		</Yieldify_Integration>
+	</modules>
+	<!-- Add layout file to the frontend -->
+	<frontend>
+		<layout>
+			<updates>
+				<yieldify_integration>
+					<file>yieldify_integration.xml</file>
+				</yieldify_integration>
+			</updates>
+		</layout>
+	</frontend>
+	<!-- Add the default controller so the admin menu doesn't break -->
+	<global>
+		<helpers>
+			<default_helper> <!-- name used for the model of the yieldifytab on adminhtml.xml -->
+				<class>Mage_Core_Helper</class> <!-- Helper definition needed by Magento -->
+			</default_helper>
+			<yieldify_helper>
+				<class>Yieldify_Integration_Helper</class>
+			</yieldify_helper>
+		</helpers>
+	</global>
+	<!-- Add new routes to the admin -->
+	<admin>
+		<routers>
+			<adminhtml>
+				<args>
+					<modules>
+						<Yieldify_Integration before="Mage_Adminhtml">Yieldify_Integration_Adminhtml</Yieldify_Integration>
+					</modules>
+				</args>
+			</adminhtml>
+		</routers>
+	</admin>
+	<!-- Add layout file to the backend -->
+	<adminhtml>
+		<layout>
+			<updates>
+				<yieldify_integration>
+					<file>yieldifyuuid.xml</file>
+				</yieldify_integration>
+			</updates>
+		</layout>
+	</adminhtml>
+</config>

@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<package>
+    <name>Yieldify_Integration</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Yieldify Integration for smart and simple onsite and email remarketing for your Magento store.</summary>
+    <description>Conversions. Smart and simple.&#xD;
+Yieldify&#x2019;s smart and simple onsite and email remarketing products predict customer behaviour to optimize customer experience with brand revenue. It&#x2019;s the easy way to increase conversions, drive value and generate leads, trusted by over 500 brands worldwide on more than 1,000 websites.&#xD;
+Our Magento extension now allows you to integrate our Tag in minutes, with no IT support needed. If you&#x2019;re new to Yieldify, click here [link to landing page] to get in touch with us to set up your account.&#xD;
+With our Tag integrated, our fully-managed service then makes sure that you get the best value out of our technology - from identifying your conversion opportunities to designing, testing and evaluating your campaigns. Our performance-based pricing means that&#xD;
+Key products and features&#xD;
+Onsite remarketing: &#x2018;stay and convert&#x2019;&#xD;
+Drive conversions, value and leads by predicting and adapting to your visitors&#x2019; onsite behaviour&#xD;
+Create engaging experiences across smartphone, tablet and desktop with our wide variety of overlays&#xD;
+Capture attention with dynamic and engaging content - from kaleidoscope designs to countdown clocks, drive the right action with personalised content&#xD;
+Get maximum results with our smart segmentation, reaching the right users to deliver your goals&#xD;
+Engage at precisely the right time using our range of triggering options; maximise your website&#x2019;s many opportunities to engage beyond just exit intent&#xD;
+Be confident in your campaigns by A/B testing your overlays&#xD;
+Email remarketing: &#x2018;return and convert&#x2019;&#xD;
+Drive conversions, value and leads even after your customer has left your website, with targeted emails&#xD;
+Encourage users to return and make a purchase with cart abandonment emails&#xD;
+A personalised user experience that continues after they&#x2019;ve left the site&#xD;
+Richer customer data when you combine with onsite remarketing&#xD;
+Services&#xD;
+Our fully-managed service makes every step of the journey smart and simple:&#xD;
+Performance-based pricing means that you only pay when our campaigns earn you revenue&#xD;
+Multi-channel personalisation; optimise your campaigns across smartphone, tablet and desktop&#xD;
+Granular analytics; access to our Dashboard shows you information in real-time&#xD;
+24/7 support from our five offices around the world - in twelve languages and counting&#xD;
+Strategic counsel; we identify the opportunities to drive value and conversions on your website so you can make the best of using Yieldify&#xD;
+An end-to-end service; from strategy, to set-up, to QA testing and reporting, we manage the whole Yieldify experience for you - including design&#xD;
+What our clients say&#xD;
+&#x201C;Yieldify&#x2019;s products and service have proven to be a valuable part of our digital strategy, driving an increase in conversion rates, average order values and high ROI as a result.&#x201D; - Domino&#x2019;s Pizza&#xD;
+&#x201C;Great product, great service and great team. We are delighted with Yieldify&#x2019;s performance across our online touchpoints. Our campaigns were executed quickly and we have seen a measurable increase in conversions and leads generated as a result of their on-site marketing.&#x201D; - The Fragrance Shop&#xD;
+How to get started&#xD;
+New customers&#xD;
+If you&#x2019;re new to Yieldify, you&#x2019;ll need to get in touch with us using this form [link] and one of our team will get back to you to set up your account; we&#x2019;ll give you the ID number you&#x2019;ll need to complete the integration&#xD;
+Existing customers&#xD;
+If you already have an account with us and need help with getting started via Magento, please contact your Account Manager&#xD;
+Learn more at yieldify.com</description>
+    <notes>- Initial release that allows simple Integration with Yieldify into Magento using only a unique Yieldify ID.</notes>
+    <authors><author><name>Yieldify</name><user>Yieldify</user><email>magento@yieldify.com</email></author></authors>
+    <date>2016-03-02</date>
+    <time>17:41:24</time>
+    <contents><target name="magecommunity"><dir name="Yieldify"><dir name="Integration"><dir name="Helper"><file name="Data.php" hash="c9fe5ab4ebd5a64f848f926ec3b55e74"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="YieldifyuuidController.php" hash="b7a9cadfdd463ac8c2bd2dc022866735"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="7626b6772262e64b9839f2c83f47af85"/><file name="config.xml" hash="2d95f0b261c399307c8bf5dedfae94fc"/></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="yieldifyuuid.xml" hash="d9692c9afaea94f7669606b87778a9c8"/></dir><dir name="template"><dir name="yieldify_integration"><file name="backend.phtml" hash="6272fb0a177feec3c726ffaaa018e483"/></dir></dir></dir></dir></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="yieldify_integration.xml" hash="cae7e1f3cb4ddeb928ee1c91dd6de877"/></dir><dir name="template"><dir name="yieldify_integration"><file name="frontend.phtml" hash="36263d9c745999bf38b9a5f31f971df9"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Yieldify_Integration.xml" hash="6fa40cdb40349504d56529a5d4595b28"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>5.6.99</max></php></required></dependencies>
+</package>
