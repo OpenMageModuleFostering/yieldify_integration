@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Yieldify_Integration",
+    "name": "openmage-module-fostering\/yieldify_integration",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Yieldify Integration for smart and simple onsite and email remarketing for your Magento store.",
     "authors": [
