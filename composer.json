@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Yieldify_Integration",
+    "name": "OpenMageModuleFostering\/Yieldify_Integration",
     "type": "magento-module",
     "license": "Open-Software-License-(OSL)",
     "homepage": "",
     "description": "Yieldify Integration for smart and simple onsite and email remarketing for your Magento store.",
     "authors": [
-    {
-        "name": "Yieldify",
-        "email": "integrations@yieldify.com"
-    }
-],
+        {
+            "name": "Yieldify",
+            "email": "integrations@yieldify.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
